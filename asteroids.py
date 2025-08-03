@@ -1,5 +1,6 @@
 import pygame
 from circleshape import *
+from constants import *
 
 class Asteroids(CircleShape):
      def __init__(self, x, y, radius):
@@ -11,3 +12,5 @@ class Asteroids(CircleShape):
      def update(self, dt):
        self.position += self.velocity * dt
        
+
+
