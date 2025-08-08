@@ -36,7 +36,7 @@ def main():
        for shot in shots:
          if obj.collision_check(shot):
            shot.kill()
-           obj.kill()
+           obj.split()
      screen.fill("black")
      for obj in drawable:
        obj.draw(screen)
